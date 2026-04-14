@@ -6,8 +6,8 @@
   --surface: #ffffff;
   --ink: #101324;
   --muted: #737993;
-  --accent: #2c5f2d;
-  --accent-soft: #4a7c59;
+  --accent: #7c3aed;
+  --accent-soft: #a78bfa;
   --line: #e7eaf3;
   --danger: #d84d6c;
   --success: #0d9d79;
@@ -29,7 +29,7 @@ body {
   margin: 0;
   font-family: "Poppins", sans-serif;
   color: var(--ink);
-  background: linear-gradient(135deg, #fffef9 0%, #f8f9fa 50%, #e9ecef 100%);
+  background: linear-gradient(135deg, #fefefe 0%, #f3f4f6 50%, #e5e7eb 100%);
 }
 
 h1,

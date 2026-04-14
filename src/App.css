@@ -7,8 +7,8 @@
   margin: 1.1rem auto 0;
   padding: 0.9rem 1rem;
   border-radius: 1rem;
-  background: rgba(255, 255, 255, 0.85);
-  border: 1px solid rgba(255, 255, 255, 0.75);
+  background: rgba(255, 255, 255, 0.9);
+  border: 1px solid rgba(124, 58, 237, 0.2);
   backdrop-filter: blur(10px);
   display: flex;
   align-items: center;
@@ -17,7 +17,7 @@
 }
 
 .brand {
-  font-family: 'Space Grotesk', sans-serif;
+  font-family: "Space Grotesk", sans-serif;
   font-weight: 700;
   font-size: 1.1rem;
   letter-spacing: 0.01em;
@@ -37,7 +37,7 @@
 }
 
 .nav-links a:hover {
-  background: #eef1fb;
+  background: rgba(124, 58, 237, 0.1);
 }
 
 .nav-links a.active-link {
@@ -78,7 +78,10 @@
   border-radius: 0.95rem;
   font-weight: 600;
   cursor: pointer;
-  transition: transform 0.15s ease, box-shadow 0.15s ease, opacity 0.15s ease;
+  transition:
+    transform 0.15s ease,
+    box-shadow 0.15s ease,
+    opacity 0.15s ease;
 }
 
 .primary-btn {
@@ -90,7 +93,7 @@
 .primary-btn:hover,
 .book-btn:hover {
   transform: translateY(-1px);
-  box-shadow: 0 12px 24px rgba(6, 10, 47, 0.2);
+  box-shadow: 0 12px 24px rgba(124, 58, 237, 0.3);
 }
 
 .primary-btn:disabled,
@@ -116,7 +119,20 @@
   border-radius: 1.6rem;
   overflow: hidden;
   background: var(--surface);
-  box-shadow: 0 24px 42px rgba(34, 43, 91, 0.1);
+  box-shadow:
+    0 10px 25px rgba(124, 58, 237, 0.1),
+    0 4px 10px rgba(0, 0, 0, 0.05);
+  border: 1px solid rgba(124, 58, 237, 0.1);
+  transition:
+    transform 0.2s ease,
+    box-shadow 0.2s ease;
+}
+
+.barber-card:hover {
+  transform: translateY(-5px);
+  box-shadow:
+    0 20px 40px rgba(124, 58, 237, 0.15),
+    0 8px 20px rgba(0, 0, 0, 0.1);
 }
 
 .barber-image-wrap {
@@ -181,7 +197,9 @@
   justify-content: center;
   color: #56608a;
   cursor: pointer;
-  transition: transform 0.15s ease, background 0.15s ease;
+  transition:
+    transform 0.15s ease,
+    background 0.15s ease;
 }
 
 .icon-btn:hover {
@@ -237,7 +255,7 @@
 .modal-backdrop {
   position: fixed;
   inset: 0;
-  background: rgba(4, 8, 30, 0.48);
+  background: rgba(124, 58, 237, 0.4);
   backdrop-filter: blur(3px);
   display: flex;
   align-items: center;
@@ -326,9 +344,10 @@
 .empty-state {
   border-radius: 0.9rem;
   padding: 0.82rem 1rem;
-  background: #eef2fc;
-  color: #465074;
+  background: rgba(124, 58, 237, 0.05);
+  color: #7c3aed;
   margin-bottom: 1rem;
+  border: 1px solid rgba(124, 58, 237, 0.1);
 }
 
 .feedback.error,
