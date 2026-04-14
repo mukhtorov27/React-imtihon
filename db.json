@@ -1,105 +1,94 @@
 {
   "barbers": [
     {
-      "name": "Aziz ",
-      "imageUrl": "https://media.gettyimages.com/id/872361244/photo/man-getting-his-beard-trimmed-with-electric-razor.jpg?s=612x612&w=gi&k=20&c=4MYCbEzH7sr2edK0XgOLePS0UEiM1KrepZAIzsp9Q6s=",
+      "id": "1",
+      "name": "Aziz",
+      "image": "https://media.gettyimages.com/id/872361244/photo/man-getting-his-beard-trimmed-with-electric-razor.jpg?s=612x612&w=gi&k=20&c=4MYCbEzH7sr2edK0XgOLePS0UEiM1KrepZAIzsp9Q6s=",
       "experience": 2,
       "rating": 4.2,
-      "location": "Toshkent, Chilonzor",
-      "id": "1"
+      "location": "Toshkent, Chilonzor"
     },
     {
-      "name": "Bekzod ",
-      "imageUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcShrixyeTSYmG2V_PTsSKF9DfsEa-X6ebo7YA&s",
+      "id": "2",
+      "name": "Bekzod",
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcShrixyeTSYmG2V_PTsSKF9DfsEa-X6ebo7YA&s",
       "experience": 8,
       "rating": 4.8,
-      "location": "Toshkent , Chilonzor",
-      "id": "3"
+      "location": "Toshkent, Chilonzor"
     },
     {
+      "id": "3",
       "name": "Ali",
-      "imageUrl": "https://img.freepik.com/free-photo/man-barbershop-salon-doing-haircut-beard-trim_1303-20953.jpg?semt=ais_hybrid&w=740&q=80",
+      "image": "https://img.freepik.com/free-photo/man-barbershop-salon-doing-haircut-beard-trim_1303-20953.jpg",
       "experience": 8,
-      "rating": 4,
-      "location": "Buxoro",
-      "id": "GIgg19GRU_w"
+      "rating": 4.0,
+      "location": "Buxoro"
     },
     {
+      "id": "4",
       "name": "Ahmad",
-      "imageUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQdcvjOVG1WFEqAL9MovzmtvYeqj_4tK2tV_A&s",
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQdcvjOVG1WFEqAL9MovzmtvYeqj_4tK2tV_A&s",
       "experience": 3,
-      "rating": 5,
-      "location": "Samarqand, Kattaqo'rg'on",
-      "id": "ESRQG4AY2uY"
+      "rating": 5.0,
+      "location": "Samarqand, Kattaqo'rg'on"
     },
     {
+      "id": "5",
       "name": "Saud",
-      "imageUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSHigdKjvipxqFgTlfkHNJJfnAWRwbR6AsNGg&s",
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSHigdKjvipxqFgTlfkHNJJfnAWRwbR6AsNGg&s",
       "experience": 2,
-      "rating": 4,
-      "location": "Qahqadaydyo, Yakkabog'",
-      "id": "NZVC2a_tzhk"
+      "rating": 4.0,
+      "location": "Qashqadaryo, Yakkabog'"
     },
     {
+      "id": "6",
       "name": "Azim",
-      "imageUrl": "https://img.freepik.com/free-photo/handsome-man-barber-shop-styling-hair_1303-20978.jpg?semt=ais_hybrid&w=740&q=80",
+      "image": "https://img.freepik.com/free-photo/handsome-man-barber-shop-styling-hair_1303-20978.jpg",
       "experience": 6,
       "rating": 4.5,
-      "location": "Buxoro, Vobkent",
-      "id": "BQydRLij_j4"
+      "location": "Buxoro, Vobkent"
     }
   ],
-  "recepts": [
+  "appointments": [
     {
       "id": "1",
-      "barberId": 2,
-      "barberName": "Jahongir ",
-      "barberLocation": "Toshkent, Yunusobod",
+      "barberId": "2",
       "customerName": "Ali Valiyev",
-      "phone": "+998 90 123 45 67",
+      "phone": "+998901234567",
       "time": "09:00",
-      "status": "Yuborilgan"
+      "status": "pending"
     },
     {
-      "barberId": "3",
-      "barberName": "Bekzod ",
-      "barberLocation": "Toshkent, Sergeli",
-      "customerName": "ali",
+      "id": "2",
+      "barberId": "2",
+      "customerName": "Ali",
       "phone": "+998914445566",
       "time": "18:00",
-      "status": "Yuborilgan",
-      "id": "XunTff3SIbo"
+      "status": "pending"
     },
     {
-      "barberId": "GIgg19GRU_w",
-      "barberName": "Ali",
-      "barberLocation": "Buxoro",
+      "id": "3",
+      "barberId": "3",
       "customerName": "Shahzod",
       "phone": "+998944562312",
       "time": "10:10",
-      "status": "Yuborilgan",
-      "id": "m6wKshnQM6w"
+      "status": "pending"
     },
     {
-      "barberId": "NZVC2a_tzhk",
-      "barberName": "Saud",
-      "barberLocation": "Qahqadaydyo, Yakkabog'",
+      "id": "4",
+      "barberId": "5",
       "customerName": "Muhammad",
       "phone": "+998915632145",
       "time": "08:40",
-      "status": "Yuborilgan",
-      "id": "02W_9IDd3NA"
+      "status": "pending"
     },
     {
-      "barberId": "BQydRLij_j4",
-      "barberName": "Azim",
-      "barberLocation": "Buxoro, Vobkent",
+      "id": "5",
+      "barberId": "6",
       "customerName": "Ruslan",
-      "phone": "+99894 123 65 45",
+      "phone": "+998941236545",
       "time": "17:45",
-      "status": "Yuborilgan",
-      "id": "Y6PFKvNQqMU"
+      "status": "pending"
     }
-  ],
-  "$schema": "./node_modules/json-server/schema.json"
+  ]
 }
